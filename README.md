@@ -8,7 +8,7 @@
 
 Check out the live version of RiseBlog here:
 
-[**RiseBlog Live**](https://your-live-link.com) 🚀
+[**RiseBlog Live**](https://rise-blog-mu.vercel.app) 🚀
 
 ---
 

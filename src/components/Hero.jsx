@@ -8,7 +8,7 @@ function Hero() {
     
       <div className="lg:bg-[url('../circles.svg')] bg-[url('../circles-m.png')] w-full h-screen bg-no-repeat bg-center bg-cover flex justify-center items-center">
     
-        <div className="flex flex-col gap-4 md:gap-0 items-center md:items-start mt-24 md:flex-row">
+        <div className="flex flex-col gap-4 md:gap-0 items-center md:items-start md:flex-row">
         <div className="md:w-1/2 w-full">
         <img src="../girl.jpg" className="md:h-[70%] md:w-full md:m-0 w-[90%] m-auto object-cover object-center rounded-tr-[187px] rounded-tl-[181px] rounded-br-[52px] rounded-bl-[133px]" alt="" />
         </div>

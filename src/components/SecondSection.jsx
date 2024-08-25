@@ -20,7 +20,7 @@ function SecondSection() {
         <div className="w-full m-auto flex justify-center lg:block lg:justify-normal">
         <Link
           to="/all-posts"
-          className="text-[#3652e1] bg-white font-bold py-4 px-6 rounded-full ml-4"
+          className="text-[#3652e1] bg-white font-bold py-4 px-6 rounded-full ml-4 active:scale-[0.96]"
         >
           See all post
         </Link>

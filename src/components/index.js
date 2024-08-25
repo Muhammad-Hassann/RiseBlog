@@ -14,6 +14,7 @@ import AuthLayout from "./AuthLayout";
 import Input from "./Input";
 import Hero from "./Hero";
 import SecondSection from "./SecondSection";
+import Heading from "./Heading";
 
 export {
     Header,
@@ -32,4 +33,5 @@ export {
     Select,
     Hero,
     SecondSection,
+    Heading
 }

@@ -28,7 +28,7 @@ function Login() {
 
   return (
     <div
-    className="p-10 flex justify-center lg:bg-[url('../circles.svg')] bg-[url('../circles-m.png')] w-full h-screen bg-no-repeat bg-center bg-cover"
+    className="flex justify-center lg:bg-[url('../circles.svg')] bg-[url('../circles-m.png')] w-full h-screen bg-no-repeat bg-center bg-cover"
     >
         <div className={`mx-auto w-full max-w-lg bg-[#EFEFEF] h-[80%] rounded-xl p-10 border border-black/10`}>
         <div className="mb-2 flex justify-center">

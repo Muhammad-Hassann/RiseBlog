@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     status : false,
-    userData: null
+    userData: {}
 }
 
 const authSlice = createSlice({
@@ -15,7 +15,7 @@ const authSlice = createSlice({
         },
         logout: (state) => {
             state.status = false;
-            state.userData = null;
+            state.userData = {};
         }
      }
 })

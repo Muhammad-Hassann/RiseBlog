@@ -38,7 +38,7 @@ function Footer() {
   return (
     <form onClick={handleSubmit(email)} className='w-full'>
     <div className='flex justify-center items-center md:p-16 pt-16 pb-0 bg-[#EFEFEF]'>
-        <div className='w-2/3 flex'>
+        <div className='lg:w-2/3 w-full flex'>
       <div className='w-[40%] hidden md:block '>
       <img src="../../footer.png" className='rounded-l-3xl' alt="" />
       </div>
@@ -50,7 +50,7 @@ function Footer() {
       <input
       placeholder="Enter your email"
       type="email"
-      className=" mt-4 md:ml-6 border-2 rounded-l-lg border-[#3652e1] "
+      className="px-3 py-2 bg-white w-full mt-4 md:ml-6 border-2 rounded-l-lg border-[#3652e1] "
       {...register("email", {
         required: true,
         validate: {
